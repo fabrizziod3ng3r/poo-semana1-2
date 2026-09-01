@@ -18,6 +18,23 @@ public class Main {
         e3.mostrarInfo();
 
         // ==============================================================================
+
+        System.out.println("\n****************************************************");
+        System.out.println("\nPRUEBA DE LA CALCULADORA CON SOBRECARGA DE METODOS: \n");
+
+        CalculadoraBasica calc = new CalculadoraBasica();
+        int resultado1 = calc.sumar(5, 10);
+        double resultado2 = calc.sumar(3.5, 2.5);
+        int resultado3 = calc.sumar(1, 2, 3);
+
+        System.out.println("Resultado de la suma de enteros: " + resultado1);
+        System.out.println("Resultado de la suma de decimales: " + resultado2);
+        System.out.println("Resultado de la suma de tres enteros: " + resultado3);
+        System.out.println("\nTotal de operaciones realizadas: " + CalculadoraBasica.getTotalOperaciones());
+        System.out.println("\nHistorial de operaciones:");
+        calc.mostrarHistorial();
+
+        // ==============================================================================
         Scanner scanner = new Scanner(System.in);   // instanciar la clase scanner 
 
         System.out.println("\n****************************************************");
