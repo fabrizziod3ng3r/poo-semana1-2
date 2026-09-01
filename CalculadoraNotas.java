@@ -34,12 +34,4 @@ public class CalculadoraNotas {
         System.out.println("Estado     : " + estado);
     }
 
-
-
-
-
-
-
-
-
 }
