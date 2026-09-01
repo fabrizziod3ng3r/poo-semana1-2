@@ -19,7 +19,18 @@ public class Estudiante {
         totalEstudiantes++;   // se incrementa en cada objeto creado
     }
  
- 
+    // Getters de las variables privadas
+    public String getNombre() { return nombre; }
+    public double getPromedio()   { return promedio; }
+    public int getEdad()   { return edad; }
+    public boolean getcurso() {return curso; }
+
+    // Setters de las variables privadas
+    public void setNombre(String nombre) { this.nombre = nombre; }
+    public void setEdad(int edad) { this.edad = edad; }
+    public void setPromedio(double promedio) { this.promedio = promedio; }
+    public void setCurso(boolean curso) { this.curso = curso; }
+
     // Método static
     public static int getTotalEstudiantes() { return totalEstudiantes; }
  

@@ -9,5 +9,10 @@ public class Main {
         e3.mostrarInfo();
  
         System.out.println("\nTotal de estudiantes: " + Estudiante.getTotalEstudiantes());
+
+        e3.setNombre("María Díaz");
+        System.out.println("\n****************************************************");
+        System.out.println("\nCambio de nombre del estudiante 3: " + e3.getNombre() + "\n");
+        e3.mostrarInfo();
     }
 }
